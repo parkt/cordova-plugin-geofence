@@ -13,4 +13,4 @@ install:
 before_script:
   - ios-sim start --devicetypeid=iPhone-6
 script:
-  - cordova-paramedic --platform ios --plugin ${TRAVIS_BUILD_DIR} --verbose
+  - FIX_PARAMEDIC=true cordova-paramedic --platform ios --plugin ${TRAVIS_BUILD_DIR} --verbose

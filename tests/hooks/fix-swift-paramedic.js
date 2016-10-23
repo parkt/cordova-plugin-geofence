@@ -6,6 +6,10 @@ module.exports = function(context) {
     var COMMENT_KEY = /_comment$/,
         CORDOVA_VERSION = process.env.CORDOVA_VERSION;
 
+    if (!process.env.FIX_PARAMEDIC) {
+        return;
+    }
+
     run();
 
     function run() {
