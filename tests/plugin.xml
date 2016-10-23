@@ -7,6 +7,6 @@
     </js-module>
 
     <platform name="ios">
-        <hook type="after_plugin_install" src="hooks/fix-swift-paramedic.js" />
+        <hook type="before_build" src="hooks/fix-swift-paramedic.js" />
     </platform>
 </plugin>
