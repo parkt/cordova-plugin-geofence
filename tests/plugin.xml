@@ -5,4 +5,8 @@
 
     <js-module src="tests.js" name="tests">
     </js-module>
+
+    <platform name="ios">
+        <hook type="after_plugin_install" src="hooks/fix-swift-paramedic.js" />
+    </platform>
 </plugin>
