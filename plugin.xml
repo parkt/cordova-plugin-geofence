@@ -24,6 +24,7 @@
     <dependency id="cordova-plugin-compat" version="^1.0.0" />
     <dependency id="es6-promise-plugin" />
     -->
+    <preference name="UseLegacySwiftLanguageVersion" value="true" />
 
     <!-- android -->
     <platform name="android">
